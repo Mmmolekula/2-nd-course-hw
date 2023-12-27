@@ -1,10 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: 'Montserrat', sans-serif;
 }
 
+.center {
+    padding-left: calc(50% - 600px);
+    padding-right: calc(50% - 600px);
+}
+
 .top {
-    width: 1440px;
     height: 1024px;
     background-image: url(img/HW1.jpg);
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 120px;
+    padding-top: 217.7px;
+}
+
+.presentation {
+    width: 760px;
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 700;
+}
+
+.about {
+    width: 481px;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 32px;
+    margin-bottom: 44px;
+}
+
+.spectext {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 32px;
+}
+
+
+.button_go {
+    border-radius: 30px;
+    background: #9C0332;
+    width: 234px;
+    height: 48px;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    box-sizing: border-box;
+    text-align: center;
+    padding-top: 13px;
 }
