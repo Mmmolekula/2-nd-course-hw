@@ -16,7 +16,6 @@ body {
     height: 1024px;
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) -7.35%, #000915 100%), url(img/HW1.jpg), lightgray 50% / cover no-repeat;
     background-size: contain;
-    background-repeat: no-repeat;
 }
 
 .header {
@@ -24,7 +23,7 @@ body {
     flex-direction: column;
     justify-content: center;
     margin-left: 120px;
-    padding-top: 217.7px;
+    padding-top: 217px;
 }
 
 .presentation {
@@ -66,3 +65,14 @@ body {
     text-align: center;
     padding-top: 13px;
 }
+
+.footer {
+    height: 556px;
+    background: #000915;
+}
+
+.item {
+    width: 378px;
+    height: 300px;
+}
+
