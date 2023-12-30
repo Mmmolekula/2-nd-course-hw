@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.center {
+  padding-left: calc(50% - 600px);
+  padding-right: calc(50% - 600px);
+}
+
+.top {
+  height: 1024px;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(-7.35%, rgba(0, 0, 0, 0)), to(#000915)), url(img/HW1.jpg), lightgray 50%/cover no-repeat;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) -7.35%, #000915 100%), url(img/HW1.jpg), lightgray 50%/cover no-repeat;
+  background-size: contain;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-left: 120px;
+  padding-top: 217px;
+}
+
+.presentation {
+  width: 760px;
+  color: #FFF;
+  font-size: 64px;
+  font-weight: 700;
+}
+
+.about {
+  width: 481px;
+  color: #FFF;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 32px;
+  margin-bottom: 44px;
+  margin-top: 32px;
+}
+
+.spectext {
+  color: #FFF;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 32px;
+}
+
+.button_go {
+  border-radius: 30px;
+  background: #9C0332;
+  width: 234px;
+  height: 48px;
+  color: #FFF;
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-align: center;
+  padding-top: 13px;
+}
+
+.footer {
+  height: 556px;
+  background: #000915;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 12px;
+}
+
+.item {
+  width: 378px;
+  height: 300px;
+}
+
+.item_1 {
+  background-image: url(img/Game1.png);
+}
+
+.item_2 {
+  background-image: url(img/Game2.png);
+}
+
+.item_3 {
+  background-image: url(img/Game3.png);
+}
+/*# sourceMappingURL=style.css.map */
