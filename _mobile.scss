@@ -1,0 +1,44 @@
+@media (max-width: 767px) {
+
+    .center {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .header {
+        margin-left: 0px;
+        column-gap: 33px;
+        align-items: center;
+    }
+
+    .presentation {
+        width: 335px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        font-size: 32px;
+    }
+
+    .about {
+        width: 343px;
+        text-align: center;
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .footer {
+        height: 1000px;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        padding-bottom: 128px;
+        align-items: center;
+    }
+
+    .item {
+        width: 343px;
+        height: 300px;
+    }
+}
+
