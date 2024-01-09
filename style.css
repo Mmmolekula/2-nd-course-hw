@@ -106,4 +106,40 @@ body {
 .item_3 {
   background-image: url(img/Game3.png);
 }
+
+@media (max-width: 767px) {
+  .center {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .header {
+    margin-left: 0px;
+    -webkit-column-gap: 33px;
+            column-gap: 33px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .presentation {
+    width: 343px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+    font-size: 32px;
+  }
+  .about {
+    width: 343px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 22px;
+  }
+}
 /*# sourceMappingURL=style.css.map */
