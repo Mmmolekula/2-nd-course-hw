@@ -27,4 +27,18 @@
         line-height: 22px;
     }
 
+    .footer {
+        height: 1000px;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        padding-bottom: 128px;
+        align-items: center;
+    }
+
+    .item {
+        width: 343px;
+        height: 300px;
+    }
 }
+
