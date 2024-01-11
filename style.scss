@@ -64,6 +64,10 @@ body {
     box-sizing: border-box;
     text-align: center;
     padding-top: 13px;
+    &_active:hover {
+        border-radius: 30px;
+        background: #EB443F;
+    }
 }
 
 .footer {

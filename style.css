@@ -74,6 +74,11 @@ body {
   padding-top: 13px;
 }
 
+.button_go_active:hover {
+  border-radius: 30px;
+  background: #EB443F;
+}
+
 .footer {
   height: 556px;
   background: #000915;
