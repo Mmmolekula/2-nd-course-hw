@@ -16,6 +16,7 @@ body {
     height: 1024px;
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) -7.35%, #000915 100%), url(img/HW1.jpg), lightgray 50% / cover no-repeat;
     background-size: cover;
+    background-position: center;
 }
 
 .header {
@@ -63,6 +64,10 @@ body {
     box-sizing: border-box;
     text-align: center;
     padding-top: 13px;
+    &_active:hover {
+        border-radius: 30px;
+        background: #EB443F;
+    }
 }
 
 .footer {
@@ -79,11 +84,41 @@ body {
     height: 300px;
     &_1 {
         background-image: url(img/Game1.png);
+        &_active:hover {
+            border-radius: 16px;
+            border: 3px solid #44D2FF;
+            background: linear-gradient(180deg, rgba(39, 1, 15, 0.00) 0%, #001944 100%), url(img/Game1.png), lightgray 50% / cover no-repeat;
+        }
     }
     &_2 {
         background-image: url(img/Game2.png);
+        &_active:hover {
+            border-radius: 16px;
+            border: 3px solid #44D2FF;
+            background: linear-gradient(180deg, rgba(39, 1, 15, 0.00) 0%, #001944 100%), url(img/Game2.png), lightgray 50% / cover no-repeat;
+        }
     }
     &_3 {
         background-image: url(img/Game3.png);
+        &_active:hover {
+            border-radius: 16px;
+            border: 3px solid #44D2FF;
+            background: linear-gradient(180deg, rgba(39, 1, 15, 0.00) 0%, #001944 100%), url(img/Game3.png), lightgray 50% / cover no-repeat;
+        }
     }
+
 }
+
+.game_name {
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+    position: absolute;
+
+    padding-left: 32px;
+    padding-top: 236px;
+
+}
+
+@import 'mobile'; 
