@@ -150,6 +150,8 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -263,6 +265,34 @@ body {
   .item {
     width: 343px;
     height: 300px;
+  }
+  .footer2 {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-bottom: 0px;
+  }
+  .seasons {
+    font-size: 32px;
+  }
+  .seasons_choose {
+    width: 343px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .left_side {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-top: 0px;
+  }
+  .right_side {
+    padding-top: 64px;
+  }
+  .right_side_mobile {
+    width: 344px;
+    height: 236px;
   }
 }
 /*# sourceMappingURL=style.css.map */
