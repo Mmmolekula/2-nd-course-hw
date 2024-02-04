@@ -121,4 +121,63 @@ body {
 
 }
 
+.footer2 {
+    background: #000915;
+    padding-left: 120px;
+    padding-bottom: 282px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.seasons {
+    color: #FFF;
+    font-size: 48px;
+    font-weight: 700;
+    &_choose {
+        width: 584px;
+        color: #FFF;
+        font-size: 18px;
+        font-weight: 300;
+        line-height: 32px;
+    }
+}
+
+.button_play {
+    width: 234.063px;
+    height: 48.603px;
+    border-radius: 30px;
+    background: #9C0332;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 400;
+    padding-left: 74px;
+    padding-top: 13.3px;
+    padding-bottom: 13.3px;
+    padding-right: 90px;
+    text-decoration: none;
+    box-sizing: border-box;
+    text-align: center;
+    &_active:hover {
+        border-radius: 30px;
+        background: #EB443F;
+    }
+}
+
+.left_side {
+    padding-top: 282px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.right_side {
+    padding-top: 233px;
+    width: 485px;
+    height: 333px;
+
+}
+
+
+
 @import 'mobile'; 
