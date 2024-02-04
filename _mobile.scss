@@ -40,5 +40,33 @@
         width: 343px;
         height: 300px;
     }
+
+    .footer2 {
+        align-items: center;
+        padding-bottom: 0px;
+    }
+
+    .seasons {
+        font-size: 32px;
+        &_choose {
+            width: 343px;
+            text-align: center;
+            font-size: 14px;
+            line-height: 22px;
+            }
+    }
+
+    .left_side {
+        align-items: center;
+        padding-top: 0px;
+    }
+
+    .right_side{
+        padding-top: 64px;
+        &_mobile {
+        width: 344px;
+        height: 236px;
+            }
+        }
 }
 
