@@ -75,17 +75,17 @@ function getPerimetr () {
 
 function getSeason (month) {
     if (month >= 3 && month <= 5) {
-        return "Весна";
+        alert ("Весна");
     } else if (month >= 6 && month <= 8) {
-        return "Лето";
+        alert ("Лето");
     } else if (month >= 9 && month <= 11) {
-        return "Осень";
+        alert ("Осень");
     } else if (month == 12 || month == 1 || month == 2) {
-        return "Зима";
+        alert ("Зима");
     } else {
-        return "Неизвестное значение";
+        alert ("Неизвестное значение");
     }
 };
-console.log (getSeason(prompt("Введите число")));
+// console.log (getSeason(prompt("Введите номер месяца:")));
 
 
