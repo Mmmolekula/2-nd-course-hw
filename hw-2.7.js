@@ -23,17 +23,19 @@ console.log(Math.max(...numbers));
 
 console.log(Math.floor(Math.random() * 10) + 1);
 
-function getRandomArrNumbers(nn) {
-    let result = [];
-    for (let t = 0; t < nn/2; t++) {
-        result.push(Math.floor(Math.random() * nn));
-    }
-    return result;
-};
+// function getRandomArrNumbers(nn) {
+//     let result = [];
+//     for (let t = 0; t < nn/2; t++) {
+//         result.push(Math.floor(Math.random() * nn));
+//     }
+//     return result;
+// };
 
-function randomBetween(min, max) {
-    return Math.floor(Math.random() * (max - min + 1) + min);
-};
+// function randomBetween(min, max) {
+//     return Math.floor(Math.random() * (max - min + 1) + min);
+// };
+
+// ХЬЮСТОН, У НАС ПРОБЛЕМЫ!
 
 console.log(new Date());
 
