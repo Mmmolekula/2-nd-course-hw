@@ -21,21 +21,30 @@ const numbers = [52, 53, 49, 77, 21, 32];
 console.log(Math.min(...numbers));
 console.log(Math.max(...numbers));
 
-console.log(Math.floor(Math.random() * 10) + 1);
+function random10 () {
+    let result = Math.floor(Math.random() * 10) + 1;
+    return result;
+}
+console.log(random10());
 
-// function getRandomArrNumbers(nn) {
-//     let result = [];
-//     for (let t = 0; t < nn/2; t++) {
-//         result.push(Math.floor(Math.random() * nn));
-//     }
-//     return result;
-// };
 
-// function randomBetween(min, max) {
-//     return Math.floor(Math.random() * (max - min + 1) + min);
-// };
+function getRandomArrNumbers(num) {
+    let result = [];
+// console.log(getRandomArrNumbers(8))
+    for (let t = 0; t < num/2; t++) 
+        result.push(Math.floor(Math.random() * num));
+    return result;
+};
+console.log(getRandomArrNumbers(8))
+
+
+function randomBetween(min, max) {
+    return Math.floor(Math.random() * (max - min + 1) + min);
+};
+console.log(randomBetween(2, 5));
 
 // ХЬЮСТОН, У НАС ПРОБЛЕМЫ!
+// ХЬЮСТОН! У НАС ПОЛУЧИЛОСЬ!
 
 console.log(new Date());
 
