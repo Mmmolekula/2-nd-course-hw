@@ -58,3 +58,19 @@ function formatDate(date) {
     return `Дата: ${date.getDate()} ${months[date.getMonth()]} ${date.getFullYear()} - это ${days[date.getDay()]} / Время: ${date.getHours()}:${date.getMinutes()}:${date.getSeconds()}`;
 };
 console.log(formatDate(new Date()));
+
+function GuessFruits () {
+let fruits = ['Яблоко', 'Груша', 'Дыня', 'Виноград', 'Персик', 'Апельсин', 'Мандарин'];
+fruits = fruits.sort(() => Math.random() - 0.5);
+alert(fruits);
+let firstGuess = prompt("Чему равнялся первый элемент массива?");
+let lastGuess = prompt("Чему равнялся последний элемент массива?");
+if (firstGuess.toLowerCase === fruits[0].toLowerCase && lastGuess.toLowerCase === fruits[fruits.lenght - 1].toLowerCase) {
+    alert("Поздравляем! Вы угадали оба слова.");
+} else if (firstGuess.toLowerCase === fruits[0].toLowerCase || lastGuess.toLowerCase === fruits[fruits.lenght - 1].toLowerCase) {
+    alert("Вы были близки к победе!");
+}
+    else {
+        alert("Вы ответили неверно и не угадали ни одного слова :( ");
+    };
+}
