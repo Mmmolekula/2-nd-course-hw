@@ -130,7 +130,7 @@ body {
     justify-content: space-between;
 }
 
-.seasons {
+.seasons, .remember_words {
     color: #FFF;
     font-size: 48px;
     font-weight: 700;
@@ -162,6 +162,9 @@ body {
         border-radius: 30px;
         background: #EB443F;
     }
+    &_foo3 {
+        width: 240.44px;
+    }
 }
 
 .left_side {
@@ -178,6 +181,22 @@ body {
 
 }
 
+.footer3 {
+    background: #000915;
+    padding-left: 120px;
+    padding-bottom: 282px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 250px;
+}
 
+.right_side2 {
+    width: 588px;
+    height: 235.6px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
 
 @import 'mobile'; 

@@ -157,13 +157,13 @@ body {
           justify-content: space-between;
 }
 
-.seasons {
+.seasons, .remember_words {
   color: #FFF;
   font-size: 48px;
   font-weight: 700;
 }
 
-.seasons_choose {
+.seasons_choose, .remember_words_choose {
   width: 584px;
   color: #FFF;
   font-size: 18px;
@@ -194,6 +194,10 @@ body {
   background: #EB443F;
 }
 
+.button_play_foo3 {
+  width: 240.44px;
+}
+
 .left_side {
   padding-top: 282px;
   display: -webkit-box;
@@ -210,6 +214,34 @@ body {
   padding-top: 233px;
   width: 485px;
   height: 333px;
+}
+
+.footer3 {
+  background: #000915;
+  padding-left: 120px;
+  padding-bottom: 282px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 250px;
+}
+
+.right_side2 {
+  width: 588px;
+  height: 235.6px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 32px;
 }
 
 @media (max-width: 767px) {
@@ -272,10 +304,10 @@ body {
             align-items: center;
     padding-bottom: 0px;
   }
-  .seasons {
+  .seasons, .remember_words {
     font-size: 32px;
   }
-  .seasons_choose {
+  .seasons_choose, .remember_words_choose {
     width: 343px;
     text-align: center;
     font-size: 14px;
@@ -293,6 +325,24 @@ body {
   .right_side_mobile {
     width: 344px;
     height: 236px;
+    padding-top: 50px;
+  }
+  .right_side2 {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .left_side2 {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+  }
+  .footer3 {
+    padding-top: 50px;
+    padding-bottom: 100px;
   }
 }
 /*# sourceMappingURL=style.css.map */
