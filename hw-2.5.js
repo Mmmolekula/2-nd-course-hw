@@ -73,19 +73,19 @@ function getPerimetr () {
     return 2 * Math.PI * this.radius;
 };
 
-function getSeason (month) {
-    if (month >= 3 && month <= 5) {
-        alert ("Весна");
-    } else if (month >= 6 && month <= 8) {
-        alert ("Лето");
-    } else if (month >= 9 && month <= 11) {
-        alert ("Осень");
-    } else if (month == 12 || month == 1 || month == 2) {
-        alert ("Зима");
-    } else {
-        alert ("Неизвестное значение");
-    }
-};
+// function getSeason (month) {
+//     if (month >= 3 && month <= 5) {
+//         alert ("Весна");
+//     } else if (month >= 6 && month <= 8) {
+//         alert ("Лето");
+//     } else if (month >= 9 && month <= 11) {
+//         alert ("Осень");
+//     } else if (month == 12 || month == 1 || month == 2) {
+//         alert ("Зима");
+//     } else {
+//         alert ("Неизвестное значение");
+//     }
+// };
 // console.log (getSeason(prompt("Введите номер месяца:")));
 
 
