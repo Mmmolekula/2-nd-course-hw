@@ -40,5 +40,50 @@
         width: 343px;
         height: 300px;
     }
+
+    .footer2 {
+        align-items: center;
+        padding-bottom: 0px;
+    }
+
+    .seasons, .remember_words {
+        font-size: 32px;
+        &_choose {
+            width: 343px;
+            text-align: center;
+            font-size: 14px;
+            line-height: 22px;
+            }
+    }
+
+    .left_side {
+        align-items: center;
+        padding-top: 0px;
+    }
+
+    .right_side{
+        padding-top: 64px;
+        &_mobile {
+        width: 344px;
+        height: 236px;
+        padding-top: 50px;
+            }
+        }
+    
+    .right_side2 {
+        order: 1;
+        align-items: center;
+    }
+
+    .left_side2 {
+        order: 2;
+    }
+
+    .footer3 {
+        padding-top: 50px;
+        padding-bottom: 100px;
+    }
+
+
 }
 
